@@ -60,7 +60,7 @@ function createRequestObject(title, amount) {
     version: "1.0",
   };
   let biz = {
-    notify_url: "https://www.google.com",
+    notify_url: "http://197.156.68.29:5050/v2/api/order-v2/mini/payment",
     appid: config.merchantAppId,
     merch_code: config.merchantCode,
     merch_order_id: createMerchantOrderId(),
